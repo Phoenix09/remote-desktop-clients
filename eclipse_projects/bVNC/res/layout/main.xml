@@ -79,7 +79,7 @@ android:layout_height="fill_parent">
 					android:text="22" android:hint="@string/port_ssh_hint" android:layout_width="wrap_content" 
 					android:layout_height="wrap_content" android:singleLine="true" android:layout_weight="0"
 					android:textAppearance="?android:attr/textAppearanceMedium" android:nextFocusDown="@+id/sshUser"
-					android:inputType="textNoSuggestions|textVisiblePassword"/>
+					android:inputType="number"/>
 			</LinearLayout>
 		</TableRow>
 		<TableRow>
@@ -168,7 +168,7 @@ android:layout_height="fill_parent">
 					android:text="5900" android:hint="@string/port_hint"
 					android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true"
 					android:layout_weight="0" android:textAppearance="?android:attr/textAppearanceMedium"
-					android:inputType="textNoSuggestions|textVisiblePassword"/>
+					android:inputType="number"/>
 			</LinearLayout>
 		</TableRow>
 		<TableRow>

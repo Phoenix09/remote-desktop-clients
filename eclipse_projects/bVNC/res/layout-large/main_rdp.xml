@@ -79,7 +79,7 @@ android:layout_height="fill_parent">
 					android:text="22" android:hint="@string/port_ssh_hint" android:layout_width="wrap_content" 
 					android:layout_height="wrap_content" android:singleLine="true" android:layout_weight="0"
 					android:textAppearance="?android:attr/textAppearanceLarge" android:nextFocusDown="@+id/sshUser"
-					android:inputType="textNoSuggestions|textVisiblePassword"/>
+					android:inputType="number"/>
 			</LinearLayout>
 		</TableRow>
 		<TableRow>
@@ -150,7 +150,7 @@ android:layout_height="fill_parent">
 					android:text="3389" android:hint="@string/port_hint"
 					android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true"
 					android:layout_weight="0" android:textAppearance="?android:attr/textAppearanceLarge"
-					android:inputType="textNoSuggestions|textVisiblePassword"/>
+					android:inputType="number"/>
 			</LinearLayout>
 		</TableRow>
 		<TableRow>
@@ -241,6 +241,7 @@ android:layout_height="fill_parent">
 		        android:layout_height="wrap_content"
 		        android:layout_weight="0.3"
 		        android:singleLine="true"
+				android:inputType="number"
 		        android:textAppearance="?android:attr/textAppearanceLarge" />
 	  	    <TextView
 	            android:layout_width="wrap_content"
@@ -253,6 +254,7 @@ android:layout_height="fill_parent">
 		        android:layout_height="wrap_content"
 		        android:layout_weight="0.3"
 		        android:singleLine="true"
+				android:inputType="number"
 		        android:textAppearance="?android:attr/textAppearanceLarge" />
 		</LinearLayout>
         <RadioGroup

@@ -79,7 +79,7 @@ android:layout_height="fill_parent">
 					android:text="22" android:hint="@string/port_ssh_hint" android:layout_width="wrap_content" 
 					android:layout_height="wrap_content" android:singleLine="true" android:layout_weight="0"
 					android:textAppearance="?android:attr/textAppearanceMedium" android:nextFocusDown="@+id/sshUser"
-					android:inputType="textNoSuggestions|textVisiblePassword"/>
+					android:inputType="number"/>
 			</LinearLayout>
 		</TableRow>
 		<TableRow>
@@ -150,7 +150,7 @@ android:layout_height="fill_parent">
 					android:text="5900" android:hint="@string/port_hint" android:minWidth="100dip"
 					android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true"
 					android:layout_weight="0" android:textAppearance="?android:attr/textAppearanceMedium"
-					android:inputType="textNoSuggestions|textVisiblePassword" android:nextFocusDown="@+id/caCertPath" />
+					android:inputType="number" android:nextFocusDown="@+id/caCertPath" />
 			</LinearLayout>
 		</TableRow>
 		<TableRow>
@@ -169,7 +169,7 @@ android:layout_height="fill_parent">
 					android:hint="@string/spice_tls_port_hint"  android:minWidth="100dip"
 					android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true"
 					android:layout_weight="0" android:textAppearance="?android:attr/textAppearanceMedium"
-					android:inputType="textNoSuggestions|textVisiblePassword" android:nextFocusDown="@+id/certSubject" />
+					android:inputType="number" android:nextFocusDown="@+id/certSubject" />
 			</LinearLayout>
 		</TableRow>
 		<TableRow>
@@ -247,6 +247,7 @@ android:layout_height="fill_parent">
 		        android:layout_height="wrap_content"
 		        android:layout_weight="0.3"
 		        android:singleLine="true"
+				android:inputType="number"
 		        android:textAppearance="?android:attr/textAppearanceMedium" />
 	  	    <TextView
 	            android:layout_width="wrap_content"
@@ -259,6 +260,7 @@ android:layout_height="fill_parent">
 		        android:layout_height="wrap_content"
 		        android:layout_weight="0.3"
 		        android:singleLine="true"
+				android:inputType="number"
 		        android:textAppearance="?android:attr/textAppearanceMedium" />
 		</LinearLayout>
         
